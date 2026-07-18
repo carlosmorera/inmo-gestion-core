@@ -126,3 +126,4 @@ Construir una landing inmobiliaria premium ficticia para presentar a clientes me
 | 2026-07-18 | Gobernanza inicial del repositorio | `50df943` | Publicada en `origin/main` |
 | 2026-07-18 | Landing inmobiliaria, mapa y despliegue temporal | `0e4f974` | Publicada en la rama de feature |
 | 2026-07-18 | Adaptación del catálogo y contenido para Bogotá | `213f3c9` | Publicada en la rama de feature |
+| 2026-07-18 | Corrección de caché para evitar HTML obsoleto | `ec6c00d` | Publicada y verificada en un túnel nuevo |
