@@ -122,3 +122,4 @@ Construir una landing inmobiliaria premium ficticia para presentar a clientes me
 | Fecha | Entrega | Commit | Resultado |
 |---|---|---|---|
 | 2026-07-18 | Gobernanza inicial del repositorio | `50df943` | Publicada en `origin/main` |
+| 2026-07-18 | Landing inmobiliaria, mapa y despliegue temporal | `0e4f974` | Publicada en la rama de feature |
