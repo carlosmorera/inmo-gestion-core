@@ -88,7 +88,7 @@ Construir una landing inmobiliaria premium ficticia para presentar a clientes me
 - [x] `INFRA-004` Fijar versiones reproducibles de las imágenes de contenedor. Fecha: 2026-07-18. Evidencia: Dockerfile y Compose.
 - [x] `INFRA-005` Añadir healthcheck y permisos mínimos razonables. Fecha: 2026-07-18. Evidencia: contenedores sin privilegios y servicio `web` saludable.
 - [x] `DEPLOY-001` Construir y levantar los contenedores localmente. Fecha: 2026-07-18. Evidencia: `docker compose build` y `docker compose up -d --wait`.
-- [x] `DEPLOY-002` Obtener y verificar la URL temporal de Cloudflare. Fecha: 2026-07-18. Evidencia: `https://kyle-broadcast-historical-supported.trycloudflare.com` y smoke tests.
+- [x] `DEPLOY-002` Obtener y verificar la URL temporal de Cloudflare. Fecha: 2026-07-18. Evidencia: `https://twins-investigation-valves-festivals.trycloudflare.com` y smoke tests.
 
 ## 9. Pruebas y cierre
 
@@ -112,6 +112,7 @@ Construir una landing inmobiliaria premium ficticia para presentar a clientes me
 - 2026-07-18: La publicación inicial usará Nginx, Docker Compose y Cloudflare Quick Tunnel.
 - 2026-07-18: La URL temporal y los datos ficticios no se indexarán.
 - 2026-07-18: La demostración se contextualiza exclusivamente para Bogotá, Colombia, con sectores aproximados y propiedades ficticias.
+- 2026-07-18: El HTML temporal debe revalidarse en cada visita; solo los assets versionados conservan caché prolongada.
 
 ## Bloqueos
 
