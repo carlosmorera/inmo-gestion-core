@@ -63,9 +63,9 @@ export function PropertyMap({ properties }: PropertyMapProps) {
           </g>
         </svg>
 
-        <span className="demo-map__district demo-map__district--one">La Arboleda</span>
-        <span className="demo-map__district demo-map__district--two">Distrito Río</span>
-        <span className="demo-map__district demo-map__district--three">Altos del Este</span>
+        <span className="demo-map__district demo-map__district--one">Chicó</span>
+        <span className="demo-map__district demo-map__district--two">Santa Bárbara</span>
+        <span className="demo-map__district demo-map__district--three">Cerros Orientales</span>
 
         {properties.map((property, index) => (
           <button

@@ -14,12 +14,12 @@ Antes de una publicación comercial definitiva se debe volver a validar la licen
 
 | Uso demostrativo | Fuente servida |
 |---|---|
-| Apartamento Bosque Alto | `https://images.unsplash.com/photo-1600607687939-ce8a6c25118c` |
-| Casa Reserva Natural | `https://images.unsplash.com/photo-1600585154340-be6161a56a0c` |
-| Penthouse Cielo Abierto | `https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3` |
-| Refugio Verde | `https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde` |
-| Loft Distrito Creativo | `https://images.unsplash.com/photo-1600573472550-8090b5e0745e` |
-| Terraza del Oriente | `https://images.unsplash.com/photo-1600585152915-d208bec867a1` |
+| Apartamento Reserva Chicó | `https://images.unsplash.com/photo-1600607687939-ce8a6c25118c` |
+| Casa Bosque de Guaymaral | `https://images.unsplash.com/photo-1600585154340-be6161a56a0c` |
+| Penthouse Mirador Rosales | `https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3` |
+| Casa Jardines de San Simón | `https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde` |
+| Loft Distrito 93 | `https://images.unsplash.com/photo-1600573472550-8090b5e0745e` |
+| Terraza Santa Bárbara | `https://images.unsplash.com/photo-1600585152915-d208bec867a1` |
 
 ## Verificación
 

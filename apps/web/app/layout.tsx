@@ -5,7 +5,7 @@ import { brand } from "@/data/brand";
 export const metadata: Metadata = {
   title: `${brand.name} | Propiedades con otra perspectiva`,
   description:
-    "Demostración de una experiencia inmobiliaria boutique para descubrir propiedades seleccionadas en Medellín y Oriente Antioqueño.",
+    "Demostración de una experiencia inmobiliaria boutique para descubrir propiedades seleccionadas en Bogotá, Colombia.",
   robots: {
     index: false,
     follow: false,

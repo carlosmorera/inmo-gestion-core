@@ -133,7 +133,7 @@ export default function Home() {
             <div className="search-grid" aria-label="Filtros ilustrativos no funcionales">
               <div><span>Operación</span><strong>Comprar</strong></div>
               <div><span>Tipo</span><strong>Casa o apartamento</strong></div>
-              <div><span>Zona</span><strong>Medellín y Oriente</strong></div>
+              <div><span>Zona</span><strong>Bogotá D.C.</strong></div>
               <a href="#propiedades">Ver propiedades <span aria-hidden="true">→</span></a>
             </div>
           </div>

@@ -111,6 +111,7 @@ Construir una landing inmobiliaria premium ficticia para presentar a clientes me
 - 2026-07-18: El mapa será ficticio, local y sin APIs cartográficas.
 - 2026-07-18: La publicación inicial usará Nginx, Docker Compose y Cloudflare Quick Tunnel.
 - 2026-07-18: La URL temporal y los datos ficticios no se indexarán.
+- 2026-07-18: La demostración se contextualiza exclusivamente para Bogotá, Colombia, con sectores aproximados y propiedades ficticias.
 
 ## Bloqueos
 

@@ -1,7 +1,7 @@
 export const brand = {
   name: "Lúmina Raíz",
   descriptor: "Inmobiliaria boutique",
-  location: "Medellín y Oriente Antioqueño",
+  location: "Bogotá, Colombia",
   email: "hola@lumina-raiz.demo",
   phoneLabel: "+57 300 000 0000",
 } as const;
