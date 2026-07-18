@@ -16,6 +16,8 @@ La primera entrega contiene:
 
 El seguimiento detallado está en `docs/product/DEMO_LANDING_TRACKING.md`.
 
+Para ejecutar la demo en hardware de bajos recursos, consultar `docs/operations/RASPBERRY_PI.md`.
+
 ## Requisitos
 
 - Node.js 24 y npm 11.

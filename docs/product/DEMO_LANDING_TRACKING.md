@@ -88,7 +88,7 @@ Construir una landing inmobiliaria premium ficticia para presentar a clientes me
 - [x] `INFRA-004` Fijar versiones reproducibles de las imágenes de contenedor. Fecha: 2026-07-18. Evidencia: Dockerfile y Compose.
 - [x] `INFRA-005` Añadir healthcheck y permisos mínimos razonables. Fecha: 2026-07-18. Evidencia: contenedores sin privilegios y servicio `web` saludable.
 - [x] `DEPLOY-001` Construir y levantar los contenedores localmente. Fecha: 2026-07-18. Evidencia: `docker compose build` y `docker compose up -d --wait`.
-- [x] `DEPLOY-002` Obtener y verificar la URL temporal de Cloudflare. Fecha: 2026-07-18. Evidencia: `https://twins-investigation-valves-festivals.trycloudflare.com` y smoke tests.
+- [x] `DEPLOY-002` Obtener y verificar la URL temporal de Cloudflare. Fecha: 2026-07-18. Evidencia: `https://nancy-administrative-speaker-each.trycloudflare.com` y smoke tests.
 
 ## 9. Pruebas y cierre
 
@@ -103,6 +103,14 @@ Construir una landing inmobiliaria premium ficticia para presentar a clientes me
 - [x] `QA-009` Verificar headers, 404, assets públicos y ausencia de archivos sensibles. Fecha: 2026-07-18. Evidencia: smoke tests públicos y revisión del contenedor.
 - [ ] `REVIEW-001` Revisar la demostración con el cliente y registrar comentarios. Fecha: pendiente. Evidencia: notas de revisión.
 
+## 10. Optimización para Raspberry Pi
+
+- [x] `RPI-001` Confirmar variantes ARM64 en Node, Nginx y cloudflared. Fecha: 2026-07-18. Evidencia: manifiestos OCI de las imágenes fijadas.
+- [x] `RPI-002` Reducir la imagen web mediante Nginx oficial `alpine-slim`. Fecha: 2026-07-18. Evidencia: reducción de 54,8 MB a 13,5 MB.
+- [x] `RPI-003` Ejecutar Nginx y cloudflared sin privilegios, con filesystem de solo lectura y límites de CPU, RAM y procesos. Fecha: 2026-07-18. Evidencia: `compose.yaml` y contenedores saludables.
+- [x] `RPI-004` Validar límites con 2.000 solicitudes locales consecutivas. Fecha: 2026-07-18. Evidencia: Nginx por debajo de 3 MiB y cloudflared alrededor de 15,5 MiB.
+- [x] `RPI-005` Documentar despliegue, medición y mantenimiento de disco para Raspberry Pi. Fecha: 2026-07-18. Evidencia: `docs/operations/RASPBERRY_PI.md`.
+
 ## Decisiones
 
 - 2026-07-18: La landing será una demostración, no el portal inmobiliario funcional completo.
@@ -113,6 +121,7 @@ Construir una landing inmobiliaria premium ficticia para presentar a clientes me
 - 2026-07-18: La URL temporal y los datos ficticios no se indexarán.
 - 2026-07-18: La demostración se contextualiza exclusivamente para Bogotá, Colombia, con sectores aproximados y propiedades ficticias.
 - 2026-07-18: El HTML temporal debe revalidarse en cada visita; solo los assets versionados conservan caché prolongada.
+- 2026-07-18: El despliegue de Raspberry Pi requiere ARM64; Nginx usa una imagen slim y los servicios tienen límites medidos de CPU, memoria y procesos.
 
 ## Bloqueos
 
